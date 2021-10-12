@@ -1,0 +1,15 @@
+body {
+    background-color: red;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+loginbox {
+    border: 5px;
+    border-color: black;
+    fill: white;
+    align-items: center;
+}

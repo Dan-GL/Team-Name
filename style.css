@@ -1,15 +1,37 @@
 body {
-    background-color: red;
+    background-color: 87ceeb;
 }
 
 header {
-    color: white;
+    height: 100px;
+    font-size: 54pt;
+    background-color: yellow;
     text-align: center;
+    border-radius: 25px;
+    border: 2px solid yellow;
 }
 
-loginbox {
-    border: 5px;
-    border-color: black;
-    fill: white;
-    align-items: center;
+.loginbox {
+    float: center;
+    text-align:center;
+    border: 2px solid yellow;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5%;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    margin-left: 30%;
+    margin-right: 30%;
+    
+	padding: 0% 10% 10% 10%;
 }

@@ -13,18 +13,18 @@ header {
     padding: 10px;
 }
 
-#login {
-    border: 5px solid #2e294e;
+.login {
+    font-size: 24px;
+    margin: auto;
+    width: 350px;
+    height: 200px;
+    border: solid 10px #2e294e;
     border-radius: 10px;
     background-color: white;
-    margin: auto;
-    padding: 5px;
-    width: fit-content;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
+    /* Center child horizontally*/
     display: flex;
-}
+    justify-content: center;
+  }
 
 #navi {
     list-style-type: none;
@@ -39,7 +39,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -57,4 +57,9 @@ li a:hover:not(.active) {
 
 form {
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
 }

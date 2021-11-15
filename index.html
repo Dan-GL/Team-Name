@@ -1,15 +1,32 @@
+<!DOCTYPE html>
+
 <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
     <title>Moodle Login</title>
     <body>
-        <h1>Welcome to Bowling Univeristy Moodle!</h1>
-        <form>
-            ID Number:
-            <input type="text" name="IDinput">
-            <br>
-            Password:
-            <input type="password" name="password">
-            <br>
-            <button type="button" name="submit">Submit</button>
-        </form>
+        <header>Bowling Univeristy Moodle</header>
+        <ul id="navi">
+            <li><a href="index.html">Login</a></li>
+            <li><a href="enroll.html">Enroll</a></li>
+            <li><a href="help.html">Help</a></li>
+        </ul> 
+        <br><br>
+        <div class="login">
+            <form>
+                Login
+                <br>
+                <input type="text" name="IDinput" placeholder="ID Number">
+                <br><br>
+                <br>
+                <input type="password" name="password" placeholder="Password">
+                <br><br>
+                <button type="button" name="submit">Submit</button>
+            </form>
+        </div>
     </body>
+    <footer>
+        Website by Team Name, 2021
+    </footer>
 </html>
